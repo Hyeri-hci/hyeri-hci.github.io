@@ -175,7 +175,7 @@ summary{padding:15px 4px;cursor:pointer;font-size:14px;font-weight:600;color:var
 .work-copy .result-line,.work-copy .status-line{font-size:13px;color:var(--ink-soft)}
 .result-line strong,.status-line strong{color:var(--ink);font-weight:600;margin-right:7px}
 .project-jump{max-width:var(--reading);margin:0 auto 30px;gap:28px;padding-block:12px}
-.award-entry-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.award-entry-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
 .award-entry{color:var(--ink);display:flex;flex-direction:column;border:1px solid var(--line);padding:23px 21px 20px;border-radius:2px}
 .award-entry:hover{border-color:#a7b9ca;text-decoration:none;background:var(--soft)}
 .award-entry h3{font-size:18px;margin:11px 0 5px}
