@@ -318,7 +318,7 @@ details.award-record{margin:0;border-bottom:0}
 .experiment-item{border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px 6px}
 .mini-table tbody tr:last-child th,.mini-table tbody tr:last-child td{border-bottom:0}
 @media(min-width:621px){
-:root{--width:920px;--reading:720px}
+:root{--width:920px;--reading:780px}
 body{font-size:15px;line-height:1.72}
 p{margin-bottom:13px}
 h1{font-size:30px;margin-bottom:14px}
@@ -398,3 +398,6 @@ summary{padding:12px 4px}
 
 /* v9: 사용 기술 상자에 설명 줄이 없을 때 아래 여백을 없앤다. */
 .tech-note .tech-rows:last-child{margin-bottom:0}
+
+/* v12: CV 경력·교육의 큰 항목 사이 구분선. 과정·프로젝트 목록의 안쪽 줄은 그대로 둔다. */
+#experience>div+div{border-top:1px solid var(--line);margin-top:22px;padding-top:22px}
